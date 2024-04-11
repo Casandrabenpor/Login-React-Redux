@@ -37,7 +37,7 @@ export const Login = () => {
     <ContainerLogin>
       <ToastContainer theme="colored" />
       <img src={logo} alt="logo" />
-      <p>Phone Catalog</p>
+      <p>Login</p>
 
       <Form onSubmit={(e: React.FormEvent<HTMLFormElement>) => handleSubmit(e)}>
         <label htmlFor="name">Name</label>
